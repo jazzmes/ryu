@@ -82,3 +82,7 @@ CONF.register_cli_opts([
                help='tester sw OFP version [openflow13|openflow14] '
                '(default: openflow13)')
 ], group='test-switch')
+
+CONF.register_cli_opts([
+    cfg.StrOpt('lama-app', default=None, help='LAMA App name.'),
+], group='lama')
