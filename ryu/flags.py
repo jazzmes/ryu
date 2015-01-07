@@ -84,5 +84,5 @@ CONF.register_cli_opts([
 ], group='test-switch')
 
 CONF.register_cli_opts([
-    cfg.StrOpt('lama-app', default=None, help='LAMA App name.'),
+    cfg.StrOpt('app', default=None, help='LAMA App name.'),
 ], group='lama')
