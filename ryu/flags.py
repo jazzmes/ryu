@@ -85,4 +85,6 @@ CONF.register_cli_opts([
 
 CONF.register_cli_opts([
     cfg.StrOpt('app', default=None, help='LAMA App name.'),
+    cfg.StrOpt('host', default=None, help='IP Address of LAMA agent host.'),
+    cfg.StrOpt('nid', default=None, help='Network ID of LAMA App.'),
 ], group='lama')
